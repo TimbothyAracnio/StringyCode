@@ -39,3 +39,17 @@ middleCharIndex = len(name) // 2
 print(middleCharIndex)
 print(name[middleCharIndex])
 print(name[-1])
+
+# cool thing repeats
+for i in range(0, len(name)):
+    print(name[i])
+
+print("-----------------")
+
+# Slicing and dicing
+
+# gets numbers
+print(name[0:6])
+
+for i in range(0, len(name) + 1):
+    print(name[0:i])
