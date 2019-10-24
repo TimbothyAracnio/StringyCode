@@ -53,3 +53,13 @@ print(name[0:6])
 
 for i in range(0, len(name) + 1):
     print(name[0:i])
+
+
+# Oh, and one more thing
+# Searching, is a new game that we[Apple] are releasing
+
+print("Charly" in name)
+if "y" not in name:
+    print("H is not in name")
+else:
+    print("H is in name")
