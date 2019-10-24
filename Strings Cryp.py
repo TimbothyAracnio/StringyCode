@@ -22,7 +22,20 @@ print("Duck, " * 2 + "Goose!")
 def rowYourBoat():
     print("Chug, " * 15 + "*INHALE* your boat")
     print("Harshly up the waterfall,")
-    print("Strenuously" * 8)
+    print("Strenuously. " * 8)
     print("life stinks.")
 
 rowYourBoat()
+
+
+
+# Indexing: you can pick it apart
+
+name = "Charlie"
+firstChar = name[0]
+print(firstChar)
+
+middleCharIndex = len(name) // 2
+print(middleCharIndex)
+print(name[middleCharIndex])
+print(name[-1])
