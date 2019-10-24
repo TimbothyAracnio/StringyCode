@@ -8,3 +8,21 @@ lastName = "Dimmadome"
 
 # stick'n them together
 print(firstName + " " + lastName)
+
+# this works!
+name = firstName + " " + lastName
+lastFirst = lastName + ", " + firstName
+
+print(lastFirst)
+
+# Repetition
+
+print("Duck, " * 2 + "Goose!")
+
+def rowYourBoat():
+    print("Chug, " * 15 + "*INHALE* your boat")
+    print("Harshly up the waterfall,")
+    print("Strenuously" * 8)
+    print("life stinks.")
+
+rowYourBoat()
