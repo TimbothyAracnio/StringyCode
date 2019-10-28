@@ -70,9 +70,14 @@ else:
 
 namem = "house"
 
-for i in range(0, len(namem) + 1):
-    print(ord(namem[i]))
+#for i in range(0, len(namem) + 1):
+#    print(ord(namem[i]))
 
 print(chr(75))
 
+
+from maepaper import *
+print(letterToIndex('M'))
+
+print(indexToLetter(25))
 
