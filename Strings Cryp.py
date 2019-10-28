@@ -63,3 +63,16 @@ if "y" not in name:
     print("H is not in name")
 else:
     print("H is in name")
+
+
+
+# Character functions
+
+namem = "house"
+
+for i in range(0, len(namem) + 1):
+    print(ord(namem[i]))
+
+print(chr(75))
+
+
