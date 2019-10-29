@@ -68,7 +68,7 @@ else:
 
 # Character functions
 
-namem = "house"
+namem = "Now we can print secret messages!"
 
 #for i in range(0, len(namem) + 1):
 #    print(ord(namem[i]))
@@ -80,4 +80,8 @@ from maepaper import *
 print(letterToIndex('M'))
 
 print(indexToLetter(25))
+
+
+cnyura_ysce_esg a_o_edm_ertmsae
+
 
