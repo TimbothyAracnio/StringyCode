@@ -82,6 +82,8 @@ print(letterToIndex('M'))
 print(indexToLetter(25))
 
 
-cnyura_ysce_esg a_o_edm_ertmsae
+from Transposition_cipher import *
+
+print(scram2Enc("you should probably run."))
 
 
