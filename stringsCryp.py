@@ -52,7 +52,9 @@ print("-----------------")
 print(name[0:6])
 
 for i in range(0, len(name) + 1):
-    print(name[0:i])
+    full = name[i] + full
+print(full)
+
 
 
 # Oh, and one more thing
@@ -68,9 +70,9 @@ else:
 
 # Character functions
 
-namem = "Now we can print secret messages!"
+# namem = "Now we can print secret messages!"
 
-#for i in range(0, len(namem) + 1):
+# for i in range(0, len(namem) + 1):
 #    print(ord(namem[i]))
 
 print(chr(75))
@@ -82,8 +84,14 @@ print(letterToIndex('M'))
 print(indexToLetter(25))
 
 
-from Transposition_cipher import *
+from transCipher import *
 
-print(scram2Enc("you should probably run."))
+print(scramble2Encrypt("you should probably run."))
+
+print(scramble2Decrypt("h ins rmpcrts samlisaearb  aaiysteftesga ae eti  ut tg eoicpct et"))
+
+
+
+
 
 
